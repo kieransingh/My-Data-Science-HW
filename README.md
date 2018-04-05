@@ -1,2 +1,2 @@
 # My-Data-Science-Projects
-Here are a variety of data analytics projects and exercises done by me.
+Here are a variety of my data analytics projects and exercises using Python (NumPy, Pandas, Matplotlib, etc) and MySQL. 
