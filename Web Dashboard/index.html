@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lan = "en" dir = "ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Web Visualization Weather Dashboard</title>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle Navigations</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+				<a class="navbar-brand" href="index.html">Latitude</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role= "button" aria=haspopup="true" aria-expanded="false"> Visualizations<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="lat_temps.html">Latitudes vs Max Temperature</a></li>
+							<li><a href="lat_hum.html">Latitude vs Humidity</a></li>
+							<li><a href="lat_cloud">Latitude vs Cloudiness</a></li>
+							<li><a href="lat_wind">Latitude vs Wind</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="glob_temps.html">Global Temperatures</a></li>
+							<li><a href="glob_hum.html">Global Humidity</a></li>
+							<li><a href="glob_cloud.html">Global Cloudiness></a></li>
+							<li><a href="glob_wind.html">Global Wind Speed></a></li>
+						</ul>
+					</li>
+					<li><a href="comparison.html">Comparision</a></li>
+					<li><a href="data.html">Data</a></li>
+					<li><a target="_blank" href="https://github.com/the-Coding-Boot-Camp-at-UT/UTAUS201801DATA2-Class-Repository-DATA/tree/master/Homework/06-Python-APIs">Repo</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-md-6 pad top"> <br>
+				<h3>Summary: Global Weather Plots</h3> <br>
+			</div>
+
+			<div class="col-md-6 pad top"> <br>
+				<h3>Visualizations</h3> <br>
+			</div>
+
+		</div>
+
+	<div class="row">
+		<div class="col-md-6 pad top"> <br>
+			<div class="pull-left">
+				<img src="resources/images/....." alt="Latitude vs Max Temperature" width="200" height="175">
+			</div>
+
+			<div class="text-left">
+				<p>
+					The purpose of this project was to analyze how the weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap
+                	API to assemble a dataset of over 500 cities. </p> <br>
+	            <p> After assembling the dataset, Matplotlib was used to plot 		various aspects of weather
+	                vs. latitude. Factors analyzed included: temperature, cloudiness, wind-speed and humidity. </p> <br>
+	            <p> Additionally, Matplotlib was used to plot aspects of the 		weather using longitude
+	                vs. latitude. The intent was to visualize a world map using weather plots. This site
+	                provides the source data and visualizations created as part of the analysis,
+	                as well as explanations and descriptions of any trends and correlations witnessed. </p>
+          </div>
+
+        </div>
+
+        <div class="col-md-3 pad top"> <br>
+        	<div class="pull-right">
+        		<a href="lat_temps.html"><img src="resources/images/lat_temps" alt="Latitude vs Max Temperature" width="100%" height="100%"></a>
+        		<a href="lat_wind.html"><img src="resources/images/lat_wind" alt="Latitude vs. Wind Speed" width="100%" height="100%"></a>
+        	</div>
+        </div>
+
+        <div class="row">
+
+      <div class="col-md-6 pad top"> <br>
+     
+      </div>
+
+      <div class="col-md-3 pad top"> <br>
+
+        <div class="pull-right">
+          <a href="glob_temps.html"><img src="resources/images/lat_temps" alt="Global Temperatures" width="100%" height="100%"></a>
+          <a href="glob_wind.html"><img src="resources/images/lat_wind" alt="Global Wind Speed" width="100%" height="100%"></a>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-3 pad top"> <br>
+
+        <div class="pull-right">
+          <a href="glob_hum.html"><img src="resources/images/lat_humid" alt="Global Humidity" width="100%" height="100%"></a>
+          <a href="glob_cloud.html"><img src="resources/images/lat_clouds" alt="Global Cloudiness" width="100%" height="100%"></a>
+        </div>
+
+      </div>
+
+  </div>
+
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
