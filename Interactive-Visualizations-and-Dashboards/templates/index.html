@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+  <div class="jumbotron">
+    <div class="container" id="wake_up">
+      <h1 class="display-3">Bellybutton Biodiversity Dashboard</h1>
+      <p>There's a whole world of life teeming in your bellybutton!</p>
+      <p>Explore the data below to see how different our bellybuttons really are!</p>
+    </div>
+  </div>
+  <div id="plot"></div>
+
+  <select id="selectDataset" onchange="optionChanged(this.value)"></select>
+  
+  <script src="plots.js"></script>
+</body>
+
+</html>
